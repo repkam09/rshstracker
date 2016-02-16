@@ -5,7 +5,7 @@ var Datastore = require('nedb');
 
 var skill_list = ["Overall", "Attack", "Defence", "Strength", "Constitution", "Ranged", "Prayer", "Magic", "Cooking", "Woodcutting", "Fletching", "Fishing", "Firemaking", "Crafting", "Smithing", "Mining", "Herblore", "Agility", "Thieving", "Slayer", "Farming", "Runecrafting", "Hunter", "Construction", "Summoning", "Dungeoneering", "Divination", "Invention"];
 
-var playername = "repkam09"
+var playername = "repkam09";
 var directory = "runescape/" + playername + "/rs3/";
 
 var results = fs.readdirSync(directory);
