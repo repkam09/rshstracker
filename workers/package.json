@@ -1,0 +1,26 @@
+{
+  "name": "rshs_workers",
+  "version": "1.0.0",
+  "description": "Tools and workers for rshstracker",
+  "main": "lhs_reader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/repkam09/rshstracker.git"
+  },
+  "author": "Mark Repka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/repkam09/rshstracker/issues"
+  },
+  "homepage": "https://github.com/repkam09/rshstracker#readme",
+  "devDependencies": {
+    "request": "^2.69.0"
+  },
+  "dependencies": {
+    "moment": "^2.11.2",
+    "nedb": "^1.8.0"
+  }
+}
